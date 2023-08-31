@@ -183,7 +183,7 @@ form label .invalid-txt::after{
 }
 @media (max-width : 500px) {
     .mainpage .page {
-    padding: 10px 0px;
+    padding: 20px 0px 10px;
     }
     .mainpage .page form {
         width: 300px;
