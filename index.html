@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Form</title>
+</head>
+<body>
+    <article class="mainpage">
+        <!-- <header>
+            <img src="image/logo.png" alt="">
+        </header> -->
+        <section class="page">
+            <form >
+                <label class="lab">
+                    <p>Name</p>
+                    <input type="text" class="invalid">
+                    <span class="invalid-txt">invalid</span>
+                </label>
+                <label class="lab">
+                    <p>Password</p>
+                    <input type="password" class="invalid">
+                    <span class="invalid-txt">invalid</span>
+                </label>
+                <label class="lab">
+                    <p>Email</p>
+                    <input type="text"class="invalid">
+                    <span class="invalid-txt">invalid</span>
+                </label>
+                <label class="lab">
+                    <p>Phone</p>
+                    <input type="text" class="invalid">
+                    <span class="invalid-txt">invalid</span>
+                </label>
+                <label id="education">
+                    <p>Educational level</p>
+                    <select name="" id="selcEducation">
+                        <option value="1">
+                            Graduate
+                        </option>
+                        <option selected value="2">
+                            Student
+                        </option>       
+                    </select>
+                </label>
+                <label id="college-name">
+                    <p>College name</p>
+                    <input type="text">
+                    <span id="collinv" class="invalid-txt">invalid</span>
+                </label>
+                    <p>Date of birth</p>
+                <article class="date" id="date">
+                    <input type="number"  placeholder="dd" maxlength="2" id="day" min="1" max="31">
+                    <input type="number" placeholder="mm" maxlength="2" min="1" max="12" id="month">
+                    <input type="number" placeholder="yyyy" maxlength="4" min="1980" max="2017" id="year">
+                </article>
+                <label>
+                    <p>Type</p>
+                    <select name="" id="type">
+                        <option value="">
+                            male
+                        </option>
+                        <option value="">
+                            female
+                        </option>
+                    </select>
+                </label>
+                <button type="submit" id="resbtn">Register </button>
+            </form>
+        </section>
+    </article>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
